@@ -1,8 +1,19 @@
+html{
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+
 body{
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
   background-color: #171919;
   color:#ffffff;
+  text-transform: uppercase;
 
 }
 
@@ -19,17 +30,18 @@ ul,li{
 
 }
 
-.subtitle-left{
- 
-  font-family: Fira Sans;
+.container{
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.headline-left {
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  letter-spacing: 7.333333969116211px;
-  
-  opacity: 0.5;
-  text-transform: uppercase;
+  letter-spacing: 7.3333px;  
+  opacity: 0.5;  
   color:#ffffff;
   display: inline-block;
   position: relative;
@@ -44,4 +56,50 @@ ul,li{
   top: 50%;
 }
 
+}
+
+.title {
+  span {
+
+    font-size: 200px;
+    color: rgba(#ffffff, .02);
+    font-weight: 800;
+    position: relative;
+    display: inline-block;
+    transform: translateX(-50px);
+    // 
+  }
+
+  h3 {
+    position: absolute;
+    top: 0;
+    right: -5px;
+    font-size: 80px;
+    margin: 0;
+    color:#ffffff;
+
+    &::after {
+      content: "";
+      width: 80px;
+      right: 0;
+      top: 0;
+      height: 1px;
+      position: absolute;
+      background-color: $green;
+    }
+  }
+}
+
+.subtitle{
+  outline: 1px solid rgb(225, 0, 255);
+  display: inline-block;
+  text-align: right;
+  &__head{
+    font-weight: 800;
+    font-size: 40px;
+    padding-right: 10px;
+    span{
+      font-weight: 100;
+    }
+  }
 }
