@@ -1,0 +1,37 @@
+body{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.subtitle-left{
+  outline:1px solid red;
+  font-family: Fira Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 7.333333969116211px;
+  
+  opacity: 0.5;
+  text-transform: uppercase;
+  color:#ffffff;
+  display: inline-block;
+  position: relative;
+  padding-left: 103px;
+  &::before{
+  content:"";
+  position: absolute;
+  width: 80px;
+  height: 1px;
+  background-color: #fff;
+  left: 0;
+  top: 50%;
+}
+
+}
