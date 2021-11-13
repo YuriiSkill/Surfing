@@ -1,16 +1,26 @@
 body{
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
+  background-color: #171919;
+  color:#ffffff;
 
 }
 
 a{
   display: inline-block;
   text-decoration: none;
+  color:#ffffff;
+}
+
+ul,li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
 }
 
 .subtitle-left{
-  outline:1px solid red;
+ 
   font-family: Fira Sans;
   font-size: 22px;
   font-style: normal;
