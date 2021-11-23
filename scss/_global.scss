@@ -37,12 +37,10 @@ ul,li{
 
 .headline-left {
   font-size: 22px;
-  font-style: normal;
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 7.3333px;  
   opacity: 0.5;  
-  color:#ffffff;
   display: inline-block;
   position: relative;
   padding-left: 103px;
@@ -55,6 +53,28 @@ ul,li{
   left: 0;
   top: 50%;
 }
+
+}
+
+.headline-right{
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 7.3333px;
+  opacity: 0.5;
+  display: inline-block;
+  position: relative;
+  padding-right: 103px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 1px;
+    background-color: #fff;
+    right: 0;
+    top: 50%;
+  }
 
 }
 
@@ -104,6 +124,20 @@ ul,li{
   }
 }
 
+
+.descr{
+   display: inline-block;
+     &__head {
+     font-weight: 800;
+     font-size: 40px;
+     
+     span {
+       font-weight: 100;
+     }
+   }
+
+}
+
 .btn{
   
   
@@ -141,3 +175,87 @@ ul,li{
   }
 
 }
+
+.surf,
+.holder{
+  padding: 160px 0 120px;
+}
+
+.holder{
+  padding-bottom: 35px;
+  
+}
+
+
+.quantity {
+  // position: relative;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.quantity input {
+  font-size: 40px;
+  line-height: 36px;
+  font-weight: 800;
+  width: 41px;
+  height: 41px;
+  float: left;
+  display: block;
+  color:#fff;
+  border: none;
+  background-color: transparent;
+}
+
+.quantity input:focus {
+  outline: 0;
+}
+
+.quantity-nav {
+  float: left;
+  position: static;
+  height: 42px;
+}
+
+.quantity-button {
+  position: relative;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+   top: 45px;
+}
+
+.quantity-button.quantity-up {
+  position: absolute;
+ 
+ 
+  right: 23px;
+ 
+}
+
+.quantity-button.quantity-down {
+  position: absolute;
+   right: 55px;
+  
+  
+}
+.star-list{
+  li {
+    display: inline-block;
+    &+li{
+       margin-left: -25px;
+    }
+   
+  }
+}
+
