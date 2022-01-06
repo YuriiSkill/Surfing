@@ -241,7 +241,7 @@
 }
 
 .surf {
-  outline: 1px solid rgb(0, 255, 0);
+  // outline: 1px solid rgb(0, 255, 0);
 
   background-image: url(../images/surf-bg.png);
   background-position: right 200px;
@@ -250,8 +250,8 @@
 }
 
 .surf__subtitle {
-  outline: 1px solid blue;
-  text-align: right;
+  // outline: 1px solid blue;
+  // text-align: right;
   padding-right: 80px;
   margin-top: -86px;
 }
@@ -316,7 +316,7 @@
 }
 
 .surf-box__inner-location {
-  outline: 1px solid orange;
+  // outline: 1px solid orange;
   left: 40px;
   bottom: 80px;
   position: absolute;
@@ -428,6 +428,7 @@
   display: none;
   bottom: 35px;
   transform: translateX(-50%);
+  z-index: 1;
   &::before {
     content: "";
     position: absolute;
@@ -508,7 +509,7 @@
 }
 
 .holder {
-  outline: 2px solid orange;
+  // outline: 2px solid orange;
   background-image: url(../images/travel-bg.png);
   &.sleep {
     background-image: url(../images/frangipani.png);
@@ -525,13 +526,13 @@
 
 .holder-slider {
   &__head {
-    outline: 2px solid rgb(4, 0, 255);
+    // outline: 2px solid rgb(4, 0, 255);
     background-repeat: no-repeat;
     background-position: top left;
     min-height: 780px;
   }
   &__descr {
-    outline: 2px solid rgb(60, 255, 0);
+    // outline: 2px solid rgb(60, 255, 0);
     padding: 160px 0 0 132px;
     margin-top: -230px;
     min-height: 320px;
@@ -614,7 +615,7 @@
 }
 
 .shop {
-  outline: 2px solid red;
+  // outline: 2px solid red;
   background-image: url(../images/shop-bg.png);
   background-repeat: no-repeat;
   background-position: right center;
@@ -624,28 +625,28 @@
 }
 
 .shop__slider {
-  outline: 3px solid blue;
+  // outline: 3px solid blue;
   padding-left: 132px;
 }
 .descr__head-shop {
-  outline: 3px solid rgb(0, 255, 170);
+  // outline: 3px solid rgb(0, 255, 170);
   max-width: 340px;
   margin-bottom: 47px;
 }
 .shop__slider-inner {
   display: flex;
-  outline: 1px solid white;
+  // outline: 1px solid white;
 }
 .shop__slider-info {
   padding-top: 150px;
-  outline: 3px solid rgb(255, 0, 21);
+  // outline: 3px solid rgb(255, 0, 21);
   width: 100%;
   max-width: 480px;
   margin-right: 40px;
 }
 
 .shop__slider-content {
-  outline: 10px solid rgb(20, 63, 7);
+  // outline: 10px solid rgb(20, 63, 7);
 }
 
 .shop__star-list {
@@ -669,10 +670,10 @@
 }
 .shop__extras {
   padding-left: 150px;
-  outline: 3px solid rgb(255, 0, 200);
+  // outline: 3px solid rgb(255, 0, 200);
 }
 .shop__extras-inner {
-  outline: 3px solid rgb(51, 255, 0);
+  // outline: 3px solid rgb(51, 255, 0);
   display: flex;
 }
 .shop__extras-title {
@@ -683,7 +684,7 @@
 }
 
 .shop__extras-box {
-  outline: 3px solid rgb(51, 255, 0);
+  // outline: 3px solid rgb(51, 255, 0);
   text-align: center;
   margin-right: 57px;
 }
@@ -710,11 +711,11 @@
 
 .surfboard {
   position: relative;
-  outline: 3px solid rgb(51, 255, 0);
+  // outline: 3px solid rgb(51, 255, 0);
 }
 
 .surfboard-box {
-  outline: 3px solid rgb(51, 255, 0);
+  // outline: 3px solid rgb(51, 255, 0);
   position: absolute;
 }
 .surfboard__position--1 {
